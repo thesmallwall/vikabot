@@ -1,5 +1,5 @@
 import telebot;
-bot = telebot.TeleBot('1129430485:AAHn2-OxhLDmkOTXMwl2b0gWy99ZvNOvM1k');
+bot = telebot.TeleBot(':AAHn2-');
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
 @bot.message_handler(content_types=['text', 'document', 'audio'])
